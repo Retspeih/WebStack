@@ -1,3 +1,28 @@
 {
-    "type": "module"
+  "type": "module",
+  "name": "package",
+  "version": "1.0.0",
+  "description": "package file containing modules and dependencies",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babe": "./node_modules/.bin/babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Retspeih/WebStack.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "Hiep Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Retspeih/WebStack/issues"
+  },
+  "homepage": "https://github.com/Retspeih/WebStack#readme",
+  "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2"
+  }
 }

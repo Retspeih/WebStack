@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import App from "./App.js"
+import Babel from "babel"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const element = <h1>Hello, world</h1>;

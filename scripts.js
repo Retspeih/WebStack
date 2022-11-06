@@ -1,1 +1,0 @@
-fetch("http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit=5&appid={b3e30fd7197f84569fa3f4116df6ac40")
